@@ -99,7 +99,7 @@ const FrontCard = ({ visible }) => {
           playAnimation();
         }}
       >
-        <img src={"images/stone.png"} />
+        <img src={"images/Stone.png"} />
       </Stone>
     </FrontCardContainer>
   );

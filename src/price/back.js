@@ -62,8 +62,8 @@ const BackCard = ({ visible }) => {
       <CampImg className="tent" className={"camp"}>
         <img src={"images/camp.png"} />
       </CampImg>
-      <IvyImg className={"ivy"}>
-        <img src={"images/ivy.png"} />
+      <IvyImg className={"Ivy"}>
+        <img src={"images/Ivy.png"} />
       </IvyImg>
       <TitleBackCard>Camping</TitleBackCard>
       <Price back>
@@ -77,7 +77,7 @@ const BackCard = ({ visible }) => {
       <Geolocation back>Tara, Serbia</Geolocation>
       <Button back>Choose Date</Button>
       <Stone onClick={() => playAnimation()}>
-        <img className={"Back"} src={"images/ivyRock.png"} />
+        <img className={"Back"} src={"images/IvyRock.png"} />
       </Stone>
     </BackCardContainer>
   );
