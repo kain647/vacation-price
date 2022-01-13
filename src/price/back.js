@@ -31,7 +31,7 @@ const BackCard = ({ visible }) => {
       easing: "easeOutElastic(1, .8)",
     });
       anime({
-          targets: ".ivy",
+          targets: ".Ivy",
           translateX: [
               { value: -50, duration: 0, delay: 0 },
               { value: 0, duration: 650, delay: 400 },
